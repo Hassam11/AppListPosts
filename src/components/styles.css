@@ -1,0 +1,32 @@
+.cardContainer {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  width: 400px;
+  height: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardContainer p {
+  margin: 5px 0;
+}
+
+.cardContainer p:first-child {
+  font-weight: bold;
+}
+
+.cardContainer p svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.username {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.cardContainer > p {
+  font-size: 20px;
+}

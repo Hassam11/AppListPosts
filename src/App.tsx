@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getPostById, getUserById } from "./api/api";
-import { IPost } from "./model/Post.interface";
-import { IUser } from "./model/User.interface";
+import { IPost, IUser } from "./model";
+import UserInfo from "./components/UserInfo";
 
 function App() {
   const [data, setData] = useState([]);
@@ -22,14 +22,14 @@ function App() {
   return (
     <>
       <button onClick={handleClick}>Click</button>
-      <span>{user.name}</span>
-      {data.map((post: IPost) => (
+      <UserInfo user={user} />
+      {/* {data.map((post: IPost) => (
         <div key={post.id}>
           <p>{post.postId}</p>
           <p>{post.name}</p>
           <span>{post.email}</span>
         </div>
-      ))}
+      ))} */}
     </>
   );
 }
