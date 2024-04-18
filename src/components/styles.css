@@ -30,3 +30,47 @@
 .cardContainer > p {
   font-size: 20px;
 }
+
+.postContainer {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.post {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

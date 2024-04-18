@@ -1,9 +1,9 @@
 import { IUser } from "../model";
+import "./styles.css";
+
 import { GoPerson } from "react-icons/go";
 import { MdOutlineMail, MdOutlinePhone } from "react-icons/md";
 import { LiaCitySolid } from "react-icons/lia";
-
-import "./styles.css";
 import { CgWebsite } from "react-icons/cg";
 import { GiModernCity } from "react-icons/gi";
 
